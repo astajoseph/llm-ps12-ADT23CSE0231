@@ -1,0 +1,160 @@
+==================================================
+SAMPLE 1: 2 margherita pizzas and a cold coffee
+--------------------------------------------------
+Extracted JSON:
+{
+  "items": [
+    {
+      "name": "Margherita Pizza",
+      "quantity": 2
+    },
+    {
+      "name": "Cold Coffee",
+      "quantity": 1
+    }
+  ],
+  "unavailable": []
+}
+------ ORDER RECEIPT ------
+2 x Margherita Pizza       Rs.440.00
+1 x Cold Coffee            Rs.100.00
+---------------------------
+Subtotal                 Rs.540.00
+Tax (5% GST)             Rs.27.00
+TOTAL                    Rs.567.00
+---------------------------
+
+==================================================
+SAMPLE 2: one chicken biryani, 3 gulab jamun and a mango lassi
+--------------------------------------------------
+Extracted JSON:
+{
+  "items": [
+    {
+      "name": "Chicken Biryani",
+      "quantity": 1
+    },
+    {
+      "name": "Gulab Jamun",
+      "quantity": 3
+    },
+    {
+      "name": "Mango Lassi",
+      "quantity": 1
+    }
+  ],
+  "unavailable": []
+}
+------ ORDER RECEIPT ------
+1 x Chicken Biryani        Rs.230.00
+3 x Gulab Jamun            Rs.240.00
+1 x Mango Lassi            Rs.90.00
+---------------------------
+Subtotal                 Rs.560.00
+Tax (5% GST)             Rs.28.00
+TOTAL                    Rs.588.00
+---------------------------
+
+==================================================
+SAMPLE 3: I'll have a veg burger, fries and a sushi roll please
+--------------------------------------------------
+Extracted JSON:
+{
+  "items": [
+    {
+      "name": "Veg Burger",
+      "quantity": 1
+    },
+    {
+      "name": "French Fries",
+      "quantity": 1
+    }
+  ],
+  "unavailable": [
+    "sushi roll"
+  ]
+}
+------ ORDER RECEIPT ------
+1 x Veg Burger             Rs.110.00
+1 x French Fries           Rs.90.00
+---------------------------
+Subtotal                 Rs.200.00
+Tax (5% GST)             Rs.10.00
+TOTAL                    Rs.210.00
+
+Not available: sushi roll
+---------------------------
+
+==================================================
+SAMPLE 4: give me five masala chai
+--------------------------------------------------
+Extracted JSON:
+{
+  "items": [
+    {
+      "name": "Masala Chai",
+      "quantity": 5
+    }
+  ],
+  "unavailable": []
+}
+------ ORDER RECEIPT ------
+5 x Masala Chai            Rs.200.00
+---------------------------
+Subtotal                 Rs.200.00
+Tax (5% GST)             Rs.10.00
+TOTAL                    Rs.210.00
+---------------------------
+
+==================================================
+SAMPLE 5: paneer butter masala with garlic bread and a fresh lime soda
+--------------------------------------------------
+Extracted JSON:
+{
+  "items": [
+    {
+      "name": "Paneer Butter Masala",
+      "quantity": 1
+    },
+    {
+      "name": "Garlic Bread",
+      "quantity": 1
+    },
+    {
+      "name": "Fresh Lime Soda",
+      "quantity": 1
+    }
+  ],
+  "unavailable": []
+}
+------ ORDER RECEIPT ------
+1 x Paneer Butter Masala   Rs.240.00
+1 x Garlic Bread           Rs.100.00
+1 x Fresh Lime Soda        Rs.60.00
+---------------------------
+Subtotal                 Rs.400.00
+Tax (5% GST)             Rs.20.00
+TOTAL                    Rs.420.00
+---------------------------
+
+==================================================
+SAMPLE 6: nothing fancy, just a chocolate brownie
+--------------------------------------------------
+Extracted JSON:
+{
+  "items": [
+    {
+      "name": "Chocolate Brownie",
+      "quantity": 1
+    }
+  ],
+  "unavailable": []
+}
+------ ORDER RECEIPT ------
+1 x Chocolate Brownie      Rs.120.00
+---------------------------
+Subtotal                 Rs.120.00
+Tax (5% GST)             Rs.6.00
+TOTAL                    Rs.126.00
+---------------------------
+
