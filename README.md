@@ -1,6 +1,5 @@
 # Problem 12 — Restaurant Ordering Bot
 
-**Mini LLM Project · 10-mark evaluation**
 
 ---
 
